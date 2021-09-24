@@ -18,4 +18,13 @@
         ]
     })
 },
+
+offer : {
+    reply_markup: JSON.stringify({
+        inline_keyboard: [
+            [{text: 'Схлeстнуться', callback_data: '/offer'},]
+            
+        ]
+    })
+},
 }
